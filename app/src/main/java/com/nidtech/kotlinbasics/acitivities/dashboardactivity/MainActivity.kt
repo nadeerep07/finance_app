@@ -1,4 +1,4 @@
-package com.nidtech.kotlinbasics
+package com.nidtech.kotlinbasics.acitivities.dashboardactivity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -19,29 +19,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             KotlinBasicsTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    KotlinBasicsTheme {
-        Greeting("Android")
     }
 }

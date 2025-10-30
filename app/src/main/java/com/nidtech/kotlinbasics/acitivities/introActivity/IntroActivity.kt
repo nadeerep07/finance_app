@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.nidtech.kotlinbasics.MainActivity
+import com.nidtech.kotlinbasics.acitivities.dashboardactivity.MainActivity
 import com.nidtech.kotlinbasics.acitivities.introActivity.screens.IntroScreen
 
 class IntroActivity : AppCompatActivity() {

@@ -11,6 +11,8 @@
     <color name="grey">#8e8e8e </color>
     <color name="lightGrey">#dedede </color>
     <color name="pink">#dbb7f1 </color>
+    <color name="darkBlue">#37449e</color>
+    <color name="lightBlue">#eaeefc</color>
 
 
 </resources>
