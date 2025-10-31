@@ -7,4 +7,6 @@ class MainViewModel(val repository: MainRepository): ViewModel() {
     constructor():this(MainRepository())
 
     fun loadData() = repository.items
+
+    fun onCardClick(){}
 }

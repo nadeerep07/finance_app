@@ -27,14 +27,14 @@ import com.nidtech.kotlinbasics.R
 
 @Composable
 @Preview
-fun CardSection(onClick:()-> Unit ={} ) {
+fun CardSection(onCardClick:()-> Unit ={} ) {
     Box(
         modifier = Modifier
             .padding(horizontal = 16.dp)
             .height(230.dp)
             .fillMaxWidth()
             .clip(RoundedCornerShape(16.dp))
-            .clickable{onClick()}
+            .clickable{onCardClick()}
     ) {
         Image(
             painter = painterResource(R.drawable.card),
